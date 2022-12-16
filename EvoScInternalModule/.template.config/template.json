@@ -1,0 +1,32 @@
+{
+  "author": "snixtho",
+  "name": "EvoSC Module Project",
+  "description": "A project for developing EvoSC# Modules",
+  "identity": "EvoSC.Templates.Project.Module",
+  "shortName": "evoscmodule",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "EvoScInternalModule",
+  "symbols": {
+    "ModuleType": {
+      "type": "parameter",
+      "description": "The module type, internal or external.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "internal",
+          "displayName": "Internal",
+          "description": "Internal modules are packaged with the application."
+        },
+        {
+          "choice": "external",
+          "displayName": "External",
+          "description": "External modules are 3rd party modules that can be installed and uninstalled."
+        }
+      ],
+      "defaultValue": "internal"
+    }
+  }
+}
