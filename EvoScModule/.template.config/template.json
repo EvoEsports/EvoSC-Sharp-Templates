@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  
+  "author": "Evo Esports",
+  "name": "EvoSC Module Project",
+  "description": "A project for developing EvoSC# Modules",
+  "identity": "EvoSC.Templates.Module",
+  "shortName": "evoscmodule",
+  "sourceName": "EvoScModuleProject",
+  "thirdPartyNotices": "https://evosc.io/",
+  "preferNameDirectory": true,
+
+  "baselines": {
+    "app": {
+      "description": "Target .NET",
+      "defaultOverrides": {
+        "Framework": "net7.0"
+      }
+    }
+  },
+
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "classifications": ["EvoSC", "Module"],
+
+  "symbols": {
+    "moduleTitle": {
+      "type": "parameter",
+      "datatype": "text",
+      "displayName": "Module Title",
+      "description": "A user-friendly name for this module.",
+      "defaultValue": "MyModule",
+      "replaces": "(moduleTitle)",
+      "isEnabled": true
+    },
+
+    "moduleSummary": {
+      "type": "parameter",
+      "datatype": "text",
+      "displayName": "Module Summary",
+      "description": "A short summary describing the plugin.",
+      "defaultValue": "This is my awesome module.",
+      "replaces": "(moduleSummary)",
+      "isEnabled": true
+    },
+
+    "moduleAuthor": {
+      "type": "parameter",
+      "datatype": "text",
+      "displayName": "Module Author",
+      "description": "Name of the module's author.",
+      "defaultValue": "Me",
+      "replaces": "(moduleAuthor)",
+      "isEnabled": true
+    }
+  }
+}

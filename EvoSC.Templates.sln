@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoScInternalModule", "EvoScInternalModule\EvoScInternalModule.csproj", "{476FF874-21A9-4C1C-B275-C8DD06D1E13F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoScModule", "EvoScModule\EvoScModule.csproj", "{476FF874-21A9-4C1C-B275-C8DD06D1E13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
